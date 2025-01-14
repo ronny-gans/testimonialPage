@@ -1,0 +1,150 @@
+html {
+    font-family: "Sora", serif;
+    font-size: 16px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #FAFAF9;;
+}
+/*wrapper style*/
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 10rem;
+    margin: 2rem; /*scales root fontsize*/
+    padding: 5%; /*scales with parent width*/
+    flex-wrap: wrap;
+}
+
+/*content container layout*/
+.content-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;/*
+    justify-content: space-around;*/
+    gap: 2rem;
+}
+/*design logo*/
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
+    height: 4rem;
+    background-color: #F5C044;
+    border-radius: 50%;
+}
+.logo-container p {
+    margin: 0;
+    line-height: 1;
+    font-size: 2rem;
+}
+/*flexbox 1 style*/
+.title {
+    padding:0;
+    margin:0;
+    font-size: 2.25rem;
+}
+.content {
+    font-size: 1.25rem;
+    color: #52525A;
+}
+.inline-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem
+}
+.inline-list li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 0.875rem;
+    color: #52525A;
+}
+li img {
+    margin-right: 0.5rem;
+}
+/*style card testimony*/
+.testimony-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+.company-logo-container {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+}
+.company-logo {
+    width: 5rem;
+    margin-right: 1rem;
+}
+.testimony {
+    width: 22rem;
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+    margin: 0;
+    padding: 2rem;
+}
+.reviewer, .review {
+    margin: 1rem 0;
+    font-size: 1rem;
+}
+.reviewer {
+    color: #18181B;
+    font-weight: bold;
+}
+.review {
+    color: #52525A;
+}
+/* Add specific alignment for the first and second testimonies */
+.testimony:nth-child(odd) {
+    align-self: flex-end; /* Align the first card to the right */
+}
+
+.testimony:nth-child(even) {
+    align-self: flex-start; /* Align the second card to the left */
+}
+@media only screen and (max-width: 1024px ) {
+    /*for tablet*/
+    .wrapper {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    .testimony-container {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+@media only screen and (max-width: 640px) {
+    .wrapper{
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: flex-start;
+        width: 100%;
+        margin-left:5%;
+        margin-right:5%;
+    }
+    .testimony-container {
+        display: flex;
+        flex-direction: column;
+        gap:2rem;
+        align-items: stretch;
+        width: 100%;
+        margin: 2rem 0 0 0;
+        padding: 0;
+    }
+    .testimony {
+        width: 100%;
+        margin: 0;
+        padding: 2rem;
+        
+    }
+}
+
+    
